@@ -1,0 +1,26 @@
+{
+  "name": "cli-node-countriesdata",
+  "version": "0.0.1",
+  "description": "Aplicación de consola que permite buscar datos de países",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "cli",
+    "console",
+    "inquirer.js"
+  ],
+  "author": "bernydevpe",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "inquirer": "^10.1.8"
+  }
+}
